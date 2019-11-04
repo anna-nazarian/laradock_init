@@ -36,7 +36,7 @@ checkProjectData () {
 
     if ! [ -d $dir ]; then
         echo 'installing laravel framework...'
-        docker run --rm -v $(pwd)/$dir:/app composer composer create-project laravel/laravel . "5.8.*"
+        docker run --rm -v $(pwd)/$dir:/app composer composer create-project laravel/laravel .
 
         echo 'laravel framework have been installed!'
 
