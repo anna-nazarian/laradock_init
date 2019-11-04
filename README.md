@@ -1,7 +1,7 @@
-#laradock/ laravel initialization
+# laradock/ laravel initialization
 Files to init laradock and laravel project
 
-#instructions
+# instructions
 Put ```Makefile``` and ```run-project.sh``` to your root project folder
 
 Go to run-project.sh and change LARADOCK_DIR to unique name for laradock dir for your project. 
