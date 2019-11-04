@@ -1,0 +1,7 @@
+.gitignore
+.idea/
+projectname-laradock
+projectname-laradock/*
+vendor/
+composer.lock
+.env
