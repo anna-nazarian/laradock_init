@@ -28,7 +28,9 @@ compose project name = your laradock folder:
 Run “make” again, it will install laravel. 
 If it ask again for changing configs - copy project/.env.example to project/.env and run “make” again
 
-Don't forget to add laradock folder to .gitignore (and also copy your laradock_dir/.env settings to root project folder, so other people could use your project settings)
+Don't forget to add laradock folder to .gitignore.
+
+You can also create settings files ```project.env-example``` and ```laradock.env-example```, so other people could use your project settings
 
 If there will be problem with MySQL, check MySQL connection settings in project/.env (see example for mariadb in "project.env - example")
 
