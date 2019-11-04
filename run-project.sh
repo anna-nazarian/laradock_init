@@ -42,9 +42,9 @@ checkProjectData () {
 
         rm -f $dir/.env
 
-        echo "change configs in file $LARADOCK_DIR/.env and restart command"
+        #echo "change configs in file $PROJECT_DIR/.env and restart command"
 
-        exit
+        #exit
     fi
 
     if ! [ -f $dir/.env ]; then
@@ -52,7 +52,7 @@ checkProjectData () {
         if ! [ -f project.env-example ]; then
             cp $dir/env.example $dir/.env
 
-            echo "change configs in file $dir/.env and restart command"
+            echo "change configs in file $PROJECT_DIR/.env and restart command"
 
             exit
         fi
